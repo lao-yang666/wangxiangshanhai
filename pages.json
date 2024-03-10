@@ -1,0 +1,82 @@
+{
+	"pages": [	
+/* 		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		} */
+	    {
+            "path" : "pages/index/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/list/list",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "查询资料",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/sort/sort",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "排行推荐",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/my/my",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "个人中心",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}],
+		"tabBar": {
+			"list": [
+	/* 			{
+					"text": "首页",
+					"pagePath": "pages/index/index"
+				}, */
+				{
+					"text": "信息",
+					"pagePath": "pages/index/index"
+				},
+				{
+					"text": "查询",
+					"pagePath": "pages/list/list"
+				},
+/* 				{
+					"text": "资讯",
+					"pagePath": "pages/news/news"
+				}, */
+				{
+					"text": "排行",
+					"pagePath": "pages/sort/sort"
+				},
+				{
+					"text": "我的",
+					"pagePath": "pages/my/my"
+				}
+			]
+		},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

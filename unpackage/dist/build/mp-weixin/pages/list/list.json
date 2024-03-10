@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "查询资料",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-search-bar": "../../uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "uni-data-checkbox": "../../uni_modules/uni-data-checkbox/components/uni-data-checkbox/uni-data-checkbox",
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section"
+  }
+}
